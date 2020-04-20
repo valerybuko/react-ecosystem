@@ -10,9 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2438d93-3895-4cf1-b20c-ac42f8b6a793" name="Default Changelist" comment="create todos reducer">
+    <list default="true" id="d2438d93-3895-4cf1-b20c-ac42f8b6a793" name="Default Changelist" comment="connect to redux store">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/todos/NewTodoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todos/NewTodoForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todos/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todos/TodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todos/TodoListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todos/TodoListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todos/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todos/reducers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
       <updated>1587370157868</updated>
       <workItem from="1587370160640" duration="2870000" />
       <workItem from="1587373749620" duration="119000" />
-      <workItem from="1587373929894" duration="7278000" />
+      <workItem from="1587373929894" duration="8226000" />
     </task>
     <task id="LOCAL-00001" summary="add babel configs">
       <created>1587371733123</created>
@@ -123,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587386984705</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="connect to redux store">
+      <created>1587388146787</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587388146787</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,17 +159,18 @@
     <MESSAGE value="connect redux" />
     <MESSAGE value="create actions" />
     <MESSAGE value="create todos reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="create todos reducer" />
+    <MESSAGE value="connect to redux store" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect to redux store" />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587373231344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1587373231344" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587386987667">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587388150650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587386987667" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587388150650" />
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587376286869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
