@@ -10,9 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2438d93-3895-4cf1-b20c-ac42f8b6a793" name="Default Changelist" comment="create todos components">
-      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
+    <list default="true" id="d2438d93-3895-4cf1-b20c-ac42f8b6a793" name="Default Changelist" comment="connect redux">
+      <change afterPath="$PROJECT_DIR$/src/todos/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todos/NewTodoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todos/NewTodoForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todos/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todos/TodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todos/TodoListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todos/TodoListItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,7 @@
       <updated>1587370157868</updated>
       <workItem from="1587370160640" duration="2870000" />
       <workItem from="1587373749620" duration="119000" />
-      <workItem from="1587373929894" duration="3781000" />
+      <workItem from="1587373929894" duration="4886000" />
     </task>
     <task id="LOCAL-00001" summary="add babel configs">
       <created>1587371733123</created>
@@ -95,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587377435289</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="connect redux">
+      <created>1587383714654</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587383714654</updated>
+    </task>
+    <task id="LOCAL-00008" summary="connect redux">
+      <created>1587383743362</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587383743362</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,17 +138,18 @@
     <MESSAGE value="create webpack configs" />
     <MESSAGE value="add react-hot-loader" />
     <MESSAGE value="create todos components" />
-    <option name="LAST_COMMIT_MESSAGE" value="create todos components" />
+    <MESSAGE value="connect redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="connect redux" />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587373231344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1587373231344" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587377438113">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587383751525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587377438113" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587383751525" />
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587376286869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
