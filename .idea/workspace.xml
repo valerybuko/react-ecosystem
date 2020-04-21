@@ -10,10 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2438d93-3895-4cf1-b20c-ac42f8b6a793" name="Default Changelist" comment="connect store with redux dev tools">
+    <list default="true" id="d2438d93-3895-4cf1-b20c-ac42f8b6a793" name="Default Changelist" comment="create mark button handler">
+      <change afterPath="$PROJECT_DIR$/src/todos/thunks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/todos/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todos/TodoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/todos/TodoListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todos/TodoListItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/todos/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todos/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/todos/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/todos/reducers.js" afterDir="false" />
     </list>
@@ -54,7 +58,8 @@
       <updated>1587370157868</updated>
       <workItem from="1587370160640" duration="2870000" />
       <workItem from="1587373749620" duration="119000" />
-      <workItem from="1587373929894" duration="11536000" />
+      <workItem from="1587373929894" duration="12379000" />
+      <workItem from="1587453703212" duration="4106000" />
     </task>
     <task id="LOCAL-00001" summary="add babel configs">
       <created>1587371733123</created>
@@ -154,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587391840907</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="create mark button handler">
+      <created>1587393366929</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587393366929</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,17 +197,18 @@
     <MESSAGE value="connect TodoList component to redux store" />
     <MESSAGE value="add redux store persisting" />
     <MESSAGE value="connect store with redux dev tools" />
-    <option name="LAST_COMMIT_MESSAGE" value="connect store with redux dev tools" />
+    <MESSAGE value="create mark button handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="create mark button handler" />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587373231344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1587373231344" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587391845439">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587393369709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587391845439" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587393369709" />
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587391810092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

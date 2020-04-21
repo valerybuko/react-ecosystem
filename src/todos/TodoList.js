@@ -4,6 +4,7 @@ import NewTodoForm from './NewTodoForm';
 import TodoListItem from './TodoListItem';
 import { removeTodo, markTodoAsCompleted } from './actions';
 import './TodoList.css';
+import { displayAlert } from "./thunks";
 
 const TodoList = ({ todos = [], onRemovePressed, onCompletedPressed }) => (
     <div className="list-wrapper">
