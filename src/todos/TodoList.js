@@ -10,7 +10,7 @@ const TodoList = ({ todos = [], onRemovePressed, onCompletedPressed, isLoading, 
     useEffect(() => {
         startLoadingTodos();
     }, []);
-
+    
     const loadingMessage = <div>Loading todos...</div>;
     const content = (
         <div className="list-wrapper">
