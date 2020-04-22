@@ -10,11 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2438d93-3895-4cf1-b20c-ac42f8b6a793" name="Default Changelist" comment="test todos reducer">
-      <change afterPath="$PROJECT_DIR$/src/todos/tests/thunks.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="d2438d93-3895-4cf1-b20c-ac42f8b6a793" name="Default Changelist" comment="test loadTodos thunk">
+      <change afterPath="$PROJECT_DIR$/src/todos/tests/selectors.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
       <workItem from="1587373749620" duration="119000" />
       <workItem from="1587373929894" duration="12379000" />
       <workItem from="1587453703212" duration="15724000" />
-      <workItem from="1587536834788" duration="8322000" />
+      <workItem from="1587536834788" duration="8788000" />
     </task>
     <task id="LOCAL-00001" summary="add babel configs">
       <created>1587371733123</created>
@@ -239,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587555490706</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="test loadTodos thunk">
+      <created>1587557005244</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1587557005244</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +262,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add babel configs" />
     <MESSAGE value="create react project files template" />
     <MESSAGE value="create webpack configs" />
     <MESSAGE value="add react-hot-loader" />
@@ -283,17 +286,18 @@
     <MESSAGE value="pass props to styled component" />
     <MESSAGE value="extend todo list item styled components" />
     <MESSAGE value="test todos reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="test todos reducer" />
+    <MESSAGE value="test loadTodos thunk" />
+    <option name="LAST_COMMIT_MESSAGE" value="test loadTodos thunk" />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587373231344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1587373231344" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587555497921">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587557009642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587555497921" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587557009642" />
     <state x="769" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587391810092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
