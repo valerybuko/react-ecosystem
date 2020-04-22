@@ -1,20 +1,60 @@
 import React from 'react';
-import './TodoListItem.css';
+import styled from "styled-components";
 
-const TodoListItem = ({ todo, onRemovePressed, onCompletedPressed }) => (
-    <div className="todo-item-container">
+const TodoItemContainer = styled.div`
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 16px;
+    position: relative;
+    box-shadow: 0 4px 8px grey;
+`;
+
+const ButtonsConteiner = styled.div`
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+`;
+
+const CompletedButton = styled.button`
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #22ee22;
+`;
+
+const RemoveButton = styled.button`
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #ee2222;
+    margin-left: 8px;
+`;
+
+const TodoListItem = ({todo, onRemovePressed, onCompletedPressed}) => (
+    <TodoItemContainer>
         <h3>{todo.text}</h3>
-        <div className="buttons-container">
+        <ButtonsConteiner>
             {todo.isCompleted
                 ? null
-                : <button
-                    onClick={() => onCompletedPressed(todo.id)}
-                    className="completed-button">Mark As Completed</button>}
-            <button
-                onClick={() => onRemovePressed(todo.id)}
-                className="remove-button">Remove</button>
-        </div>
-    </div>
+                : <CompletedButton
+                    onClick={() => onCompletedPressed(todo.id)}>
+                    Mark As Completed
+                </CompletedButton>}
+            <RemoveButton
+                onClick={() => onRemovePressed(todo.id)}>
+                Remove
+            </RemoveButton>
+        </ButtonsConteiner>
+    </TodoItemContainer>
 );
 
 export default TodoListItem;
